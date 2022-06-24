@@ -1,7 +1,7 @@
 from git import Repo
 
 PATH_OF_GIT_REPO = ".git/"  # make sure .git folder is properly configured
-COMMIT_MESSAGE = 'comment from python script'
+COMMIT_MESSAGE = 'Test commit from python script'
 
 def git_push():
     repo = Repo(PATH_OF_GIT_REPO)
